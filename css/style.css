@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.header{
+    background-color:  black;
+    color: white;
+    font-weight: 500;
+    font-size: 2em;
+    padding: 2rem;
+}
+.sec_2{
+    display: flex;
+    margin: 20px;
+}
+
+.left_sec{
+    flex: 2;
+    margin: 10px;
+    
+}
+.right_sec{
+    flex: 1;
+    margin: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+    height: 350px;
+}
+.ligne{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+.product_image {
+    height: 170px;
+    flex :1;
+    margin-right: 10px;
+}
+.info{
+    flex: 2;
+    padding: 10px;
+
+}
+.product_price{
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content:flex-end;
+    padding: 10px;
+    
+}
+
+.product_info{
+    display: flex;
+    flex-direction: column;
+}
+.product_title{
+    font-weight: 500;
+    font-size: larger;
+}
+.product_spec{
+    font-weight: 200;
+    padding: 5px;
+}
+
+.product_specs{
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.qty{
+    border-style: none;
+    width: 20px;
+    background:rgb(247, 247, 247) ;
+}
+
+span.increase {
+    font-weight: 500;
+    cursor: pointer;
+}
+span.decrease{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.del_fav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.delete{
+    cursor: pointer;
+}
+.delete:hover{
+    border-bottom: 1px solid black;
+
+}
+.fav{
+    cursor: pointer;
+    
+}
+
+
+.SubTotal {
+    display: flex;
+    justify-content: space-between;
+}
+.shipping{
+    display: flex;
+    justify-content: space-between;
+}
+.Total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background: rgb(226, 85, 19);
+    border-style: none;
+    padding: 10px 0;
+    font-weight: bolder;
+    font-size: larger;
+    color: cornsilk;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(196, 73, 16);
+}
+
+.summary{
+    font-weight: bolder;
+    border-bottom: 2px solid white ;
+}
